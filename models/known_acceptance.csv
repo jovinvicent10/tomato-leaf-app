@@ -1,0 +1,9 @@
+split,group,total,accepted,rejected,acceptance_rate
+val,ALL,225,215,10,0.9555555555555556
+val,Early_Blight,75,74,1,0.9866666666666667
+val,Healthy,75,73,2,0.9733333333333334
+val,Late_Blight,75,68,7,0.9066666666666666
+test,ALL,225,209,16,0.9288888888888889
+test,Early_Blight,75,73,2,0.9733333333333334
+test,Healthy,75,75,0,1.0
+test,Late_Blight,75,61,14,0.8133333333333334

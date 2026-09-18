@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "classes": [
+    "Early_Blight",
+    "Healthy",
+    "Late_Blight"
+  ],
+  "image_size": [
+    224,
+    224
+  ],
+  "ood_resize": "bilinear",
+  "disease_resize": "nearest",
+  "exif_transpose": true,
+  "input_range": "0..255 RGB",
+  "embedding_normalization": "L2",
+  "score": "euclidean_to_coordinate_median",
+  "acceptance_rule": "distance <= threshold",
+  "target_acceptance": 0.95,
+  "calibration_n": 225,
+  "calibration_rank": 215,
+  "tensorflow_version": "2.20.0",
+  "disease_preprocessing": "inside saved model"
+}
